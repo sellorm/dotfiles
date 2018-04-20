@@ -10,3 +10,9 @@ export PATH="/Users/msellors/anaconda3/bin:$PATH"
 # export PS1='$(gbt $?)'
 export PS1="\[\033[95m\]\u@\h \[\033[32m\]\W\[\033[33m\] [\$(git symbolic-ref --short HEAD 2>/dev/null)]\[\033[00m\]\$ "
 
+# Change tree to unicode
+alias tree="tree --charset unicode"
+
+# ll
+alias ll="ls -l"
+
